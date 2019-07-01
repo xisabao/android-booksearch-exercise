@@ -5,6 +5,15 @@
     android:orientation="vertical"
     tools:context=".activities.BookDetailActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="#898b8f">
+    </android.support.v7.widget.Toolbar>
+
     <ImageView
         android:id="@+id/ivBookCover"
         android:layout_marginTop="8dp"
